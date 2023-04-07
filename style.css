@@ -1,6 +1,16 @@
-h1{
+h1,p,h2,h3 {
    font-family: 'Edu NSW ACT Foundation', cursive;
-   text-align: center;
+   text-align: center;  
+  
+}
+.sombra{
+   display: block;
+   background-color: rgba(101, 218, 218, 0.315);
+   border-radius: 20px;
+   justify-content: center;
+   
+   
+   
 }
 
 header{
@@ -9,40 +19,52 @@ header{
    background-image: url(./Imágenes/foto1recortada.jpg);
    background-size: cover;
    width: 1300;
-   height: 300px;
-   font-family: 'Edu NSW ACT Foundation', cursive;
-   text-align: center;  
-   color: rgba(2, 1, 14, 0.712);
-   
+   height: 300px; 
+   color: black;
+      
 }
-h2, h3{
+h2, h3, image{
    text-align: center;
 }
 
 .contenedor{
    display: flex;
    background-color: antiquewhite;
-   justify-content: space-around;
-   image-rendering: auto;
-
+   justify-content:space-around;
+   width: 100%;
    
-
-   
-   
-    
 }
 
 .elemento{
+   width: 500px;
+   justify-content: center;
    margin-top: 2%;
    text-indent: 2%;
    padding-left: 20px;
    padding-right: 20px;
    background-color: rgb(223, 207, 187);
    font-family:'Roboto', sans-serif;
-   width: 600px;
    color:rgba(0, 0, 0, 0.716)
-   
-   
-   
+     
 }
-   
+.contenedor2{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   margin-top: 2%;
+   margin-block-end: 2%;
+   padding-left: 20px;
+   padding-right: 20px;
+  
+}
+.carousel-caption {
+   background-color: rgba(0, 0, 0, 0.275);
+   border-radius: 20px;
+}
+.carousel {
+   width: 50%;
+}
+
+
+
+
