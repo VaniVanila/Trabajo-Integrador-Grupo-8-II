@@ -1,3 +1,4 @@
+/*estilos generales*/
 h1,p,h2,h3 {
    font-family: 'Edu NSW ACT Foundation', cursive;
    text-align: center;  
@@ -5,13 +6,12 @@ h1,p,h2,h3 {
 }
 .sombra{
    display: block;
-   background-color: rgba(101, 218, 218, 0.315);
+   background-color:rgba(240, 255, 255, 0.366);
    border-radius: 20px;
-   justify-content: center;
-   
-   
+   justify-content: center;  
    
 }
+/*estilos header*/
 
 header{
    display: block;
@@ -26,12 +26,33 @@ header{
 h2, h3, image{
    text-align: center;
 }
-
+/*estilos navbar*/
+.container{
+    display: flex;
+    background-color:  rgb(223, 207, 187);
+    
+}
+.nav-item{
+    display: flex;
+    justify-content: space-evenly;
+}
+/*estilos promos*/
+.promos {
+    color: blue;
+    width: 100%;
+    font-size: larger;
+    background-color: antiquewhite;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+}
+/*estilos nosotros*/
 .contenedor{
    display: flex;
    background-color: antiquewhite;
-   justify-content:space-around;
+   justify-content:center;
    width: 100%;
+   
    
 }
 
@@ -47,6 +68,7 @@ h2, h3, image{
    color:rgba(0, 0, 0, 0.716)
      
 }
+/*estilos carrusel*/
 .contenedor2{
    display: flex;
    width: 100%;
@@ -64,7 +86,60 @@ h2, h3, image{
 .carousel {
    width: 50%;
 }
+/*estilos contacto*/
+.interaccion{
+    display: flex;
+    
+    justify-content: space-around;
+}
+.container2{
+    display: block;
+    width: 40%;
+    background-color: rgb(223, 207, 187);
+    border-color: rgba(41, 28, 223, 0.684);
+    padding: 10px;
+    
+    
+}
+/*estilos cotización*/
+.container3{
+    display: block;
+    width: 40%;
+    justify-content:center;
+    background-color: rgb(223, 207, 187);
+    text-align: center; 
+    font-size: small;
+    
+      
+}
 
 
 
 
+/* --- Pie De Página --- */
+.grupo-1{
+    display: flex;
+    height: 250px;
+    width: 100%;
+
+    background-color: antiquewhite;
+    justify-content:space-between;
+    align-items:center;       
+    
+}
+.box{
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+   
+}
+.pie-pagina .red-social a{
+    text-decoration: none;
+    font-size: 40px;
+    
+}
+.grupo-2{
+    background-color: rgb(223, 207, 187);
+    text-align: center;
+    font-size: 14px
+}
