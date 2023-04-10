@@ -32,10 +32,12 @@ h2, h3, image{
     background-color:  rgb(223, 207, 187);
     
 }
-.nav-item{
-    display: flex;
-    justify-content: space-evenly;
+.nav-link{
+    color: blue;
 }
+.navbar-brand{
+    font-family: cursive;
+    color: blue;
 /*estilos promos*/
 .promos {
     color: blue;
